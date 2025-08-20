@@ -1,4 +1,4 @@
-# 🪡 Atelier Ana Gomes 🧵
+# 🪡 Atelier Ana Gomes
 
 ¡Bienvenido al repositorio de la página web de Atelier Ana Gomes!
 
