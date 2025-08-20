@@ -48,7 +48,7 @@ const Hero = () => {
               </span>
             </Button>
             <Button variant="elegant" size="lg" asChild>
-              <a href="#consulta-directa">Consulta Personalizada</a>
+              <a href="#contacto">Consulta Personalizada</a>
             </Button>
           </div>
           <Dialog open={open} onOpenChange={setOpen}>
