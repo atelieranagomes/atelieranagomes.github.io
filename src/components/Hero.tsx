@@ -40,12 +40,12 @@ const Hero = () => {
               variant="hero"
               size="lg"
               className="group"
-              onClick={() => setOpen(true)}
+              asChild
             >
-              Ver Mi Trabajo
-              <span className="ml-2 group-hover:translate-x-1 transition-transform">
-                →
-              </span>
+              <a href="#portfolio">
+                Ver Mi Trabajo
+                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+              </a>
             </Button>
             <Button variant="elegant" size="lg" asChild>
               <a href="#contacto">Consulta Personalizada</a>
