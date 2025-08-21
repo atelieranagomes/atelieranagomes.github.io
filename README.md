@@ -14,7 +14,7 @@ Esta sección explica cómo subir imágenes y añadir nuevos vestidos a la web d
 
 ---
 
-## 2. Añadir un vestido al portfolio
+## 2. Añadir o sustituir un vestido al portfolio
 
 1. Ve a la carpeta `src/components` y haz clic en el archivo `Portfolio.tsx`.
 2. Haz clic en el icono de lápiz (`Edit this file`).

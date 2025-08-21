@@ -48,6 +48,7 @@ const INCREMENT = 3;
 
 const Portfolio: React.FC = () => {
   const [visible, setVisible] = useState(INITIAL_COUNT);
+  const [zoomImg, setZoomImg] = useState<{image: string, title: string, description: string} | null>(null);
   const showMore = () => setVisible((v) => v + INCREMENT);
   const hasMore = visible < dresses.length;
   return (
@@ -57,7 +58,9 @@ const Portfolio: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {dresses.slice(0, visible).map((dress, idx) => (
             <div key={idx} className="bg-cream/10 rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-6">
-              <img src={dress.image} alt={dress.title} className="w-full h-64 object-cover rounded mb-4" />
+              <div className="w-full h-64 mb-4 overflow-hidden rounded cursor-zoom-in" onClick={() => setZoomImg(dress)}>
+                <img src={dress.image} alt={dress.title} className="w-full h-64 object-cover transition-transform duration-700 hover:scale-105" />
+              </div>
               <h3 className="text-2xl font-semibold text-gold mb-2">{dress.title}</h3>
               <p className="text-cream/80 text-center">{dress.description}</p>
             </div>
@@ -69,6 +72,11 @@ const Portfolio: React.FC = () => {
               className="px-6 py-3 bg-gold text-elegant-gray rounded hover:bg-gold-light transition-colors font-semibold text-lg"
               onClick={showMore}
             >Ver más</button>
+          </div>
+        )}
+        {zoomImg && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70" onClick={() => setZoomImg(null)}>
+            <img src={zoomImg.image} alt="Zoom" className="max-w-3xl max-h-[80vh] rounded-xl shadow-2xl scale-100 transition-transform duration-700" />
           </div>
         )}
       </div>
