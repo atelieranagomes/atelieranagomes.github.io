@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <circle cx="32" cy="32" r="30" fill="#fff8f0" stroke="#c6a16e" stroke-width="4"/>
+  <text x="50%" y="54%" text-anchor="middle" font-family="Playfair Display, serif" font-size="32" fill="#c6a16e" font-weight="bold" dy=".3em">🪡</text>
+</svg>
