@@ -22,8 +22,8 @@ const dresses = [
     description: "Diseño limpio y moderno, con líneas sencillas y tejidos de alta calidad."
   },
   {
-    image: "/src/assets/custom-fitting.jpg",
-    title: "Vestido de Fiesta Largo",
+    image: "/src/assets/IMG_4748",
+    title: "Veu",
     description: "Vestido elegante para galas, confeccionado en terciopelo y detalles de pedrería."
   },
   {
