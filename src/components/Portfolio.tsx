@@ -3,33 +3,23 @@ import React, { useState } from "react";
 const dresses = [
   {
     image: "/src/assets/IMG_4149.jpg",
-    title: "Vestido de Novia Clásico",
+    title: "Vestido de Novia ",
     description: "Diseño personalizado en seda y encaje, inspirado en la elegancia atemporal."
   },
   {
-    image: "/src/assets/vintage-restoration.jpg",
-    title: "Restauración Vintage",
-    description: "Vestido restaurado de los años 60, manteniendo la esencia original y añadiendo detalles modernos."
-  },
-  {
-    image: "/src/assets/custom-fitting.jpg",
+    image: "/src/assets/IMG_4201.jpg",
     title: "Vestido de Fiesta a Medida",
     description: "Creación exclusiva para eventos especiales, con ajuste perfecto y detalles únicos."
   },
   {
-    image: "/src/assets/hero-atelier.jpg",
-    title: "Vestido Boho Chic",
+    image: "/src/assets/IMG_20250829_182654.jpg",
+    title: "Mono Plissado",
     description: "Vestido bohemio con telas ligeras y detalles artesanales, ideal para bodas al aire libre."
   },
   {
-    image: "/src/assets/wedding-service.jpg",
-    title: "Vestido Minimalista",
+    image: "/src/assets/IMG_2860.jpg",
+    title: "Vestido Preboda Minimalista",
     description: "Diseño limpio y moderno, con líneas sencillas y tejidos de alta calidad."
-  },
-  {
-    image: "/src/assets/vintage-restoration.jpg",
-    title: "Vestido Vintage Floral",
-    description: "Vestido inspirado en los años 50, con estampado floral y corte clásico."
   },
   {
     image: "/src/assets/custom-fitting.jpg",
@@ -37,7 +27,7 @@ const dresses = [
     description: "Vestido elegante para galas, confeccionado en terciopelo y detalles de pedrería."
   },
   {
-    image: "/src/assets/hero-atelier.jpg",
+    image: "/src/assets/IMG_20250813_192101.jpg",
     title: "Vestido Corto Moderno",
     description: "Vestido juvenil y fresco, perfecto para celebraciones informales."
   }
