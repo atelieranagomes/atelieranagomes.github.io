@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const dresses = [
   {
-    image: "/src/assets/wedding-service.jpg",
+    image: "/src/assets/IMG_4149.jpg",
     title: "Vestido de Novia Clásico",
     description: "Diseño personalizado en seda y encaje, inspirado en la elegancia atemporal."
   },
