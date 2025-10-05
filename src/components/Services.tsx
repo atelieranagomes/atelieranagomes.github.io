@@ -26,20 +26,20 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-luxury">
-      <div className="container mx-auto px-6">
+    <section className="py-20 bg-elegant-gray text-cream">
+  <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-elegant-gray mb-6">
+          <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-gold">
             Servicios Exclusivos
           </h2>
-          <p className="text-lg text-soft-gray max-w-2xl mx-auto">
+          <p className="text-lg text-cream/80 max-w-2xl mx-auto">
             Cada pieza es una obra de arte única, diseñada y confeccionada con la máxima atención al detalle
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-luxe transition-all duration-500 border-0 bg-card/80 backdrop-blur-sm">
+            <Card key={index} className="group hover:shadow-luxe transition-all duration-500 border-0 bg-cream/10 backdrop-blur-sm">
               <div className="overflow-hidden rounded-t-xl">
                 <img 
                   src={service.image} 
@@ -48,15 +48,15 @@ const Services = () => {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="font-display text-2xl font-semibold text-elegant-gray mb-4">
+                <h3 className="font-display text-2xl font-semibold text-gold mb-4">
                   {service.title}
                 </h3>
-                <p className="text-soft-gray mb-6 leading-relaxed">
+                <p className="text-cream/80 mb-6 leading-relaxed">
                   {service.description}
                 </p>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-sm text-elegant-gray">
+                    <li key={idx} className="flex items-center text-sm text-gold">
                       <div className="w-2 h-2 bg-gold rounded-full mr-3" />
                       {feature}
                     </li>
