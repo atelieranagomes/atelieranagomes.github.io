@@ -9,27 +9,28 @@ const dresses = [
   {
     image: "/src/assets/IMG_4201.jpg",
     title: "Vestido de Fiesta a Medida",
-    description: "Creación exclusiva para eventos especiales, con ajuste perfecto y detalles únicos."
+    description: "Un vestido de encaje lila, suave y elegante, que refleja delicadeza en cada detalle y guarda, además de belleza, un pedacito de nuestra historia.
+"
   },
   {
     image: "/src/assets/IMG_20250829_182654.jpg",
     title: "Mono Plissado",
-    description: "Vestido bohemio con telas ligeras y detalles artesanales, ideal para bodas al aire libre."
+    description: " Este mono plisado en fucsia, acompañado de un delicado cinturón de flores, une elegancia y frescura en una sola pieza."
   },
   {
     image: "/src/assets/IMG_2860.jpg",
-    title: "Vestido Preboda Minimalista",
-    description: "Diseño limpio y moderno, con líneas sencillas y tejidos de alta calidad."
+    title: "Vestido Preboda",
+    description: "Vestido blanco midi con abertura lateral, diseñado especialmente para una preboda llena de estilo, frescura y elegancia. Un look que refleja amor, luz y feminidad en cada detalle,"
   },
   {
     image: "/src/assets/IMG_4748",
-    title: "Veu",
-    description: "Vestido elegante para galas, confeccionado en terciopelo y detalles de pedrería."
+    title: "Velos",
+    description: "Bordado personalizado en velos de novia."
   },
   {
     image: "/src/assets/IMG_20250813_192101.jpg",
     title: "Vestido Corto Moderno",
-    description: "Vestido juvenil y fresco, perfecto para celebraciones informales."
+    description: "Vestido de vuelo en tejido brillante, escote en V y delicado fruncido rematado con cuatro flores que realzan su encanto. "
   }
 ];
 
