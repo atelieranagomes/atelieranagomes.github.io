@@ -1,33 +1,39 @@
 import React, { useState } from "react";
+import vestidoNovia from "@/assets/vestido-novia.jpg";
+import vestidoFiesta from "@/assets/vestido-fiesta-lila.jpg";
+import monoFucsia from "@/assets/mono-fucsia.jpg";
+import vestidoPreboda from "@/assets/vestido-preboda.jpg";
+import veloNovia from "@/assets/velo-novia.jpg";
+import vestidoCorto from "@/assets/vestido-corto-moderno.jpg";
 
 const dresses = [
   {
-    image: "/src/assets/IMG_4149.jpg",
-    title: "Vestido de Novia ",
+    image: vestidoNovia,
+    title: "Vestido de Novia",
     description: "Diseño personalizado en seda y encaje, inspirado en la elegancia atemporal."
   },
   {
-    image: "/src/assets/IMG_4201.jpg",
+    image: vestidoFiesta,
     title: "Vestido de Fiesta a Medida",
     description: "Un vestido de encaje lila, suave y elegante, que refleja delicadeza en cada detalle y guarda, además de belleza, un pedacito de nuestra historia."
   },
   {
-    image: "/src/assets/IMG_20250829_182654.jpg",
-    title: "Mono Plissado",
-    description: " Este mono plisado en fucsia, acompañado de un delicado cinturón de flores, une elegancia y frescura en una sola pieza."
+    image: monoFucsia,
+    title: "Mono Plisado Fucsia",
+    description: "Este mono plisado en fucsia, acompañado de un delicado cinturón de flores, une elegancia y frescura en una sola pieza."
   },
   {
-    image: "/src/assets/IMG_2860.jpg",
+    image: vestidoPreboda,
     title: "Vestido Preboda",
     description: "Vestido blanco midi con abertura lateral, diseñado especialmente para una preboda llena de estilo, frescura y elegancia. Un look que refleja amor, luz y feminidad en cada detalle."
   },
   {
-    image: "/src/assets/IMG_4748.jpg",
-    title: "Velos",
+    image: veloNovia,
+    title: "Velo de Novia Bordado",
     description: "Bordado personalizado en velos de novia."
   },
   {
-    image: "/src/assets/IMG_20250813_192101.jpg",
+    image: vestidoCorto,
     title: "Vestido Corto Moderno",
     description: "Vestido de vuelo en tejido brillante, escote en V y delicado fruncido rematado con cuatro flores que realzan su encanto. "
   }

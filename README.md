@@ -1,6 +1,6 @@
 # Guía rápida para añadir vestidos al portfolio
 
-Esta sección explica cómo subir imágenes y añadir nuevos vestidos a la web del atelier usando solo GitHub, sin necesidad de programar.
+Esta sección explica cómo subir imágenes y añadir nuevos vestidos a la web del atelier usando solo GitHub. Solo se debe hacer en la rama dev.
 
 ---
 
@@ -14,23 +14,30 @@ Esta sección explica cómo subir imágenes y añadir nuevos vestidos a la web d
 
 ---
 
+
 ## 2. Añadir o sustituir un vestido al portfolio
 
 1. Ve a la carpeta `src/components` y haz clic en el archivo `Portfolio.tsx`.
 2. Haz clic en el icono de lápiz (`Edit this file`).
-3. Busca el array llamado `dresses` (al principio del archivo).
-4. Añade una nueva entrada siguiendo este formato, antes del último corchete `]`:
+3. Al principio del archivo, importa la imagen que subiste, usando el nombre del archivo:
 
-```js
-{
-   image: "/src/assets/nombre-de-la-imagen.jpg",
-   title: "Título del vestido",
-   description: "Descripción del vestido"
-},
-```
+   ```js
+   import vestidoNovia from '@/assets/vestido-novia.jpg';
+   ```
 
-- Cambia `nombre-de-la-imagen.jpg` por el nombre real de la imagen que subiste.
-- Escribe el título y la descripción que quieras mostrar.
+   Usa un nombre de variable descriptivo y relacionado con la imagen.
+
+4. Busca el array llamado `dresses` y añade una nueva entrada usando la variable importada en el campo `image`:
+
+   ```js
+   {
+     image: vestidoNovia, // usa aquí la variable importada
+     title: "Título del vestido",
+     description: "Descripción del vestido"
+   },
+   ```
+
+   - Escribe el título y la descripción que quieras mostrar.
 
 5. Haz clic en `Commit changes` para guardar.
 
